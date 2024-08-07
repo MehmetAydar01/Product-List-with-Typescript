@@ -1,5 +1,5 @@
 import { StyledModal } from '../styled/styledProducts';
-import orderConfirm from '../assets/images/icon-order-confirmed.svg';
+import orderConfirm from '/images/icon-order-confirmed.svg';
 import OrderTotal from './OrderTotal';
 import { useAppSelector, useAppDispatch } from '../hooks';
 import { closeModal } from '../features/modal/ModalSlice';

@@ -1,6 +1,6 @@
 import { useAppSelector, useAppDispatch } from '../hooks';
-import emptyCard from '../assets/images/illustration-empty-cart.svg';
-import carbonNeutral from '../assets/images/icon-carbon-neutral.svg';
+import emptyCard from '/images/illustration-empty-cart.svg';
+import carbonNeutral from '/images/icon-carbon-neutral.svg';
 import { TiDeleteOutline } from 'react-icons/ti';
 import { deleteProductFromBasket } from '../features/product/ProductsSlice';
 import OrderTotal from './OrderTotal';
